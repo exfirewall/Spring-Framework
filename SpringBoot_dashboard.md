@@ -12,7 +12,7 @@
 
 ### spring boot 시작하기
 
-[visual code에서 spring boot 시작하기](https://medium.com/@boxone80/visual-studio-code-%EC%97%90%EC%84%9C-spring-boot%EC%82%AC%EC%9A%A9%EB%B2%95-a20e2595be2d)
+[visual code에서 spring boot 시작하기](https://medium.com/@boxone80/visual-studio-code-%EC%97%90%EC%84%9C-spring-boot%EC%82%AC%EC%9A%A9%EB%B2%95-a20e2595be2d)  
 난 익숙한 vscode에서 할래....
 
 ----------------------
@@ -22,9 +22,9 @@
 
 MySQL 초기설정을 빠뜨렸다. src > main > resources > application.properties 에 들어가서 아래와 같이 설정해준다.
 
-spring.datasource.url=jdbc:mysql://localhost:3306/[DB스키마명]?serverTimezone=UTC&characterEncoding=UTF-8
-spring.datasource.username=[DB접속Id]
-spring.datasource.password=[DB접속Password]
-spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+spring.datasource.url=jdbc:mysql://localhost:3306/[DB스키마명]?serverTimezone=UTC&characterEncoding=UTF-8  
+spring.datasource.username=[DB접속Id]  
+spring.datasource.password=[DB접속Password]  
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver  
 
 
