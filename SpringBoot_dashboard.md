@@ -27,4 +27,17 @@ spring.datasource.username=[DB접속Id]
 spring.datasource.password=[DB접속Password]  
 spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver  
 
+`Error : thymleaf가 html과 css,js 파일을 찾지 못하는 경로 문제`
+
+src > main > resources > application.properties에서 thymleaf가 각 view 파일들을 찾을 수 있게 절대 경로 설정을 해준다.
+
+spring.thymeleaf.check-template-location=true  
+spring.thymeleaf.prefix=file:///${user.dir}/src/main/resources/templates/  
+spring.resources.static-locations=file:///${user.dir}/src/main/resources/static/  
+spring.thymeleaf.suffix=.html  
+spring.thymeleaf.encoding=UTF-8  
+spring.thymeleaf.content-type=text/html  
+spring.thymeleaf.cache=false  
+spring.thymeleaf.mode=LEGACYHTML5  
+
 
