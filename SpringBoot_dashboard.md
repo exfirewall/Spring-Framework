@@ -36,7 +36,7 @@ spring.thymeleaf.prefix=file:///${user.dir}/src/main/resources/templates/
 spring.resources.static-locations=file:///${user.dir}/src/main/resources/static/  
 spring.thymeleaf.suffix=.html  
 spring.thymeleaf.encoding=UTF-8  
-spring.thymeleaf.content-type=text/html  
+spring.thymeleaf.servlet.content-type=text/html  
 spring.thymeleaf.cache=false  
 spring.thymeleaf.mode=LEGACYHTML5  
 
