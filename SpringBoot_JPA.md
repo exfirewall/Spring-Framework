@@ -22,3 +22,21 @@
  - SQL을 직접적으로 작성하지 않고 객체를 사용하여 동작하기 때문에 유지보수가 더욱 간결하고, 재사용성도 증가하여 유지보수가 편리해진다.
  - DB컬럼이 추가될 때마다 테이블 수정이나 SQL 수정하는 과정이 많이 줄어들고, 값을 할당하거나, 변수 선언등의 부수적인 코드 또한 급격히 줄어든다.
  - 각각의 객체에 대한 코드를 별도로 작성하여 코드의 가독성도 올라간다.
+
+## DAO(Data Access Object) 란?
+repository package
+
+* 실제로 DB에 접근하는 객체이다.  
+  -> Persistence Layer(DB에 data를 CRUD하는 계층)이다.  
+* Service와 DB를 연결하는 고리의 역할을 한다.  
+* SQL를 사용(개발자가 직접 코딩)하여 DB에 접근한 후 적절한 CRUD API를 제공한다.  
+  -> JPA 대부분의 기본적인 CRUD method를 제공하고 있다.  
+```java
+extends JpaRepository<User, Long>
+```
+
+* 예시(JPA 사용 시)  
+```java
+public interface QuestionRepository extends CrudRepository<Question, Long> { 
+}
+```
