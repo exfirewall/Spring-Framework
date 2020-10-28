@@ -1,3 +1,6 @@
+# Spring JPA
+
+![spring_jpa_architecture](./spring-jpa-architecture.png)
 ## JPA란?
  * Java Persistence API (자바 ORM 기술에 대한 API 표준 명세)
  * ORM을 사용하기 위한 인터페이스를 모아둔 것 이라고 볼 수 있다.
