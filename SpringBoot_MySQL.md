@@ -21,3 +21,4 @@ Error Code: 1364(HY000) Field 'id' doesn't have a default value
 ```SQL
 ALTER TABLE employee MODIFY empno int NOT NULL AUTO_INCREMENT;
 ```
+---------
