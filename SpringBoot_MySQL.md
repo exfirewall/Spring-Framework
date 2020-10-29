@@ -1,4 +1,4 @@
-# Error Fix List
+# Errors you may encounter
 ------------
 
 
