@@ -13,7 +13,7 @@
 ### spring boot 시작하기
 
 [visual code에서 spring boot 시작하기](https://medium.com/@boxone80/visual-studio-code-%EC%97%90%EC%84%9C-spring-boot%EC%82%AC%EC%9A%A9%EB%B2%95-a20e2595be2d)  
-난 익숙한 vscode에서 할래....
+난 익숙한 vscode에서 할래...
 
 ----------------------
 ### 시작부터 막힘
