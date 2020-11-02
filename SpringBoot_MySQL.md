@@ -22,3 +22,10 @@ Error Code: 1364(HY000) Field 'id' doesn't have a default value
 ALTER TABLE employee MODIFY empno int NOT NULL AUTO_INCREMENT;
 ```
 ---------
+
+column 명명 규칙을 지키지 않으면 자동으로 column명을 바꿔서 새로운 column을 추가한다.
+```java  
+@Column(name="empCode")
+  private Integer empCode;
+```
+에서 column을 empCode라 했을 때  
